@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Ichiban Sushi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="frian_header">
+  <div class="frian_container frian_nav_wrap">
+    <a href="index.html" class="frian_logo"><span class="frian_logo_mark">鮨</span> Ichiban Sushi</a>
+    <button class="frian_burger" id="frian_burger" aria-label="Buka menu">&#9776;</button>
+    <nav class="frian_menu" id="frian_menu">
+      <a class="frian_menu_link" href="index.html">Beranda</a>
+      <a class="frian_menu_link" href="tentang.html">Tentang</a>
+      <a class="frian_menu_link" href="menu.html">Menu</a>
+      <a class="frian_menu_link" href="galeri.html">Galeri</a>
+      <a class="frian_menu_link" href="promo.html">Promo</a>
+      <a class="frian_menu_link" href="lokasi.html">Lokasi</a>
+      <a class="frian_menu_link frian_active" href="kontak.html">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<section class="frian_page_hero">
+  <div class="frian_container">
+    <p class="frian_eyebrow" style="color:var(--frian_gold)">Hubungi Kami</p>
+    <h1 class="frian_title">Kirim <span style="color:var(--frian_gold)">Pesan</span> ke Ichiban</h1>
+    <p>Reservasi, kritik, saran, atau pesanan katering? Tulis di sini.</p>
+  </div>
+</section>
+
+<section class="frian_section">
+  <div class="frian_container frian_grid_2" style="align-items:start">
+    <div class="frian_reveal">
+      <h2 class="frian_title">Mari <span>Terhubung</span></h2>
+      <p class="frian_lead">Tim kami membalas pesan dalam 1x24 jam pada hari kerja.</p>
+      <div class="frian_info_list">
+        <div class="frian_info_item"><div class="frian_info_icon">📞</div><div><b>WhatsApp</b><br>0851-2253-8463</div></div>
+        <div class="frian_info_item"><div class="frian_info_icon">✉️</div><div><b>Email</b><br>muhamadfrian1@gmail.com</div></div>
+        <div class="frian_info_item"><div class="frian_info_icon">📍</div><div><b>Alamat</b><br>Jl. KHZ Mustofa, Kota Tasikmalaya<br><a href="lokasi.html" style="color:var(--frian_red);font-weight:700">Lihat lokasi &rarr;</a></div></div>
+      </div>
+    </div>
+
+    <form class="frian_form frian_reveal" id="frian_form" novalidate>
+      <div id="frian_notice"></div>
+      <div class="frian_form_row">
+        <div class="frian_field"><label for="frian_nama">Nama Lengkap</label><input type="text" id="frian_nama" name="nama" placeholder="Nama Anda"><div class="frian_error"></div></div>
+        <div class="frian_field"><label for="frian_email">Email</label><input type="email" id="frian_email" name="email" placeholder="nama@email.com"><div class="frian_error"></div></div>
+      </div>
+      <div class="frian_form_row">
+        <div class="frian_field"><label for="frian_telepon">No. HP / WhatsApp</label><input type="tel" id="frian_telepon" name="telepon" placeholder="0812xxxxxxxx"><div class="frian_error"></div></div>
+        <div class="frian_field"><label for="frian_subjek">Subjek</label>
+          <select id="frian_subjek" name="subjek"><option value="">-- Pilih --</option><option>Reservasi Meja</option><option>Pesanan Katering</option><option>Kritik &amp; Saran</option><option>Lainnya</option></select><div class="frian_error"></div></div>
+      </div>
+      <div class="frian_field"><label for="frian_pesan">Pesan</label><textarea id="frian_pesan" name="pesan" placeholder="Tulis pesan Anda untuk pemilik Ichiban Sushi..."></textarea><small id="frian_char" style="color:var(--frian_muted)">0 karakter</small><div class="frian_error"></div></div>
+      <button type="submit" class="frian_btn">Kirim Pesan</button>
+    </form>
+  </div>
+</section>
+
+<footer id="frian_footer">
+  <div class="frian_container">
+    <div class="frian_footer_grid">
+      <div><h4>Ichiban Sushi</h4><p>Restoran sushi dengan bahan segar dan cita rasa autentik Jepang. Nomor satu di hati pecinta sushi.</p></div>
+      <div><h4>Halaman</h4><ul>
+        <li><a href="index.html">Beranda</a></li><li><a href="tentang.html">Tentang</a></li><li><a href="menu.html">Menu</a></li><li><a href="galeri.html">Galeri</a></li></ul></div>
+      <div><h4>Lainnya</h4><ul>
+        <li><a href="promo.html">Promo</a></li><li><a href="lokasi.html">Lokasi</a></li><li><a href="kontak.html">Kontak</a></li></ul></div>
+    </div>
+    <p class="frian_copy">&copy; 2026 Ichiban Sushi. Website dibuat oleh Muhamad Frian Erliana untuk UTS Pemrograman Web / Internet.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
