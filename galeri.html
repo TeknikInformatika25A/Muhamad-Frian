@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri - Ichiban Sushi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="frian_header">
+  <div class="frian_container frian_nav_wrap">
+    <a href="index.html" class="frian_logo"><span class="frian_logo_mark">鮨</span> Ichiban Sushi</a>
+    <button class="frian_burger" id="frian_burger" aria-label="Buka menu">&#9776;</button>
+    <nav class="frian_menu" id="frian_menu">
+      <a class="frian_menu_link" href="index.html">Beranda</a>
+      <a class="frian_menu_link" href="tentang.html">Tentang</a>
+      <a class="frian_menu_link" href="menu.html">Menu</a>
+      <a class="frian_menu_link frian_active" href="galeri.html">Galeri</a>
+      <a class="frian_menu_link" href="promo.html">Promo</a>
+      <a class="frian_menu_link" href="lokasi.html">Lokasi</a>
+      <a class="frian_menu_link" href="kontak.html">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<section class="frian_page_hero">
+  <div class="frian_container">
+    <p class="frian_eyebrow" style="color:var(--frian_gold)">Galeri</p>
+    <h1 class="frian_title">Manjakan <span style="color:var(--frian_gold)">Matamu</span> Dulu</h1>
+    <p>Klik salah satu foto untuk melihat lebih besar.</p>
+  </div>
+</section>
+
+<section class="frian_section">
+  <div class="frian_container">
+    <div class="frian_gallery">
+      <div class="frian_tile frian_wide frian_g1" data-frian-g="frian_g1" data-frian-emoji="🍣" data-frian-cap="Salmon Nigiri, favorit sepanjang masa"><span>Salmon Nigiri</span>🍣</div>
+      <div class="frian_tile frian_g2" data-frian-g="frian_g2" data-frian-emoji="🍤" data-frian-cap="Ebi Tempura Roll"><span>Ebi Tempura</span>🍤</div>
+      <div class="frian_tile frian_g3" data-frian-g="frian_g3" data-frian-emoji="🍵" data-frian-cap="Ocha hangat khas Jepang"><span>Ocha</span>🍵</div>
+      <div class="frian_tile frian_g4" data-frian-g="frian_g4" data-frian-emoji="🍱" data-frian-cap="Ichiban Bento Set"><span>Bento Set</span>🍱</div>
+      <div class="frian_tile frian_g5" data-frian-g="frian_g5" data-frian-emoji="🍡" data-frian-cap="Mochi Ice Cream"><span>Mochi</span>🍡</div>
+      <div class="frian_tile frian_wide frian_g6" data-frian-g="frian_g6" data-frian-emoji="🐉" data-frian-cap="Dragon Roll, kreasi andalan chef"><span>Dragon Roll</span>🐉</div>
+      <div class="frian_tile frian_g2" data-frian-g="frian_g2" data-frian-emoji="🍙" data-frian-cap="California Roll"><span>California Roll</span>🍙</div>
+      <div class="frian_tile frian_g3" data-frian-g="frian_g3" data-frian-emoji="🥢" data-frian-cap="Sajian dengan sumpit tradisional"><span>Sumpit</span>🥢</div>
+      <div class="frian_tile frian_g1" data-frian-g="frian_g1" data-frian-emoji="🍜" data-frian-cap="Udon hangat untuk hari hujan"><span>Udon</span>🍜</div>
+      <div class="frian_tile frian_g4" data-frian-g="frian_g4" data-frian-emoji="🏮" data-frian-cap="Suasana restoran bernuansa Jepang"><span>Suasana Resto</span>🏮</div>
+      <div class="frian_tile frian_g5" data-frian-g="frian_g5" data-frian-emoji="👨‍🍳" data-frian-cap="Chef kami meracik sushi langsung"><span>Chef Kami</span>👨‍🍳</div>
+      <div class="frian_tile frian_g6" data-frian-g="frian_g6" data-frian-emoji="🌸" data-frian-cap="Menu musiman Sakura"><span>Sakura Special</span>🌸</div>
+    </div>
+    <p class="frian_center frian_lead" style="margin-top:28px">Foto sungguhan bisa diganti dengan dokumentasi restoran Anda sendiri.</p>
+  </div>
+</section>
+
+<div id="frian_lightbox">
+  <button class="frian_lightbox_close" aria-label="Tutup">&times;</button>
+  <div class="frian_lightbox_box">
+    <div id="frian_lightbox_pic" class="frian_lightbox_pic"></div>
+    <p id="frian_lightbox_cap"></p>
+  </div>
+</div>
+
+<footer id="frian_footer">
+  <div class="frian_container">
+    <div class="frian_footer_grid">
+      <div><h4>Ichiban Sushi</h4><p>Restoran sushi dengan bahan segar dan cita rasa autentik Jepang. Nomor satu di hati pecinta sushi.</p></div>
+      <div><h4>Halaman</h4><ul>
+        <li><a href="index.html">Beranda</a></li><li><a href="tentang.html">Tentang</a></li><li><a href="menu.html">Menu</a></li><li><a href="galeri.html">Galeri</a></li></ul></div>
+      <div><h4>Lainnya</h4><ul>
+        <li><a href="promo.html">Promo</a></li><li><a href="lokasi.html">Lokasi</a></li><li><a href="kontak.html">Kontak</a></li></ul></div>
+    </div>
+    <p class="frian_copy">&copy; 2026 Ichiban Sushi. Website dibuat oleh Muhamad Frian Erliana untuk UTS Pemrograman Web / Internet.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

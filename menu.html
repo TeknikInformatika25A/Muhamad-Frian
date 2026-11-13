@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Ichiban Sushi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="frian_header">
+  <div class="frian_container frian_nav_wrap">
+    <a href="index.html" class="frian_logo"><span class="frian_logo_mark">鮨</span> Ichiban Sushi</a>
+    <button class="frian_burger" id="frian_burger" aria-label="Buka menu">&#9776;</button>
+    <nav class="frian_menu" id="frian_menu">
+      <a class="frian_menu_link" href="index.html">Beranda</a>
+      <a class="frian_menu_link" href="tentang.html">Tentang</a>
+      <a class="frian_menu_link frian_active" href="menu.html">Menu</a>
+      <a class="frian_menu_link" href="galeri.html">Galeri</a>
+      <a class="frian_menu_link" href="promo.html">Promo</a>
+      <a class="frian_menu_link" href="lokasi.html">Lokasi</a>
+      <a class="frian_menu_link" href="kontak.html">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<section class="frian_page_hero">
+  <div class="frian_container">
+    <p class="frian_eyebrow" style="color:var(--frian_gold)">Daftar Menu</p>
+    <h1 class="frian_title">Pilih <span style="color:var(--frian_gold)">Hidangan</span> Favoritmu</h1>
+    <p>Klik "Tambah" untuk menyusun pesanan, lalu kirim lewat WhatsApp.</p>
+  </div>
+</section>
+
+<section class="frian_section">
+  <div class="frian_container">
+    <div class="frian_filter">
+      <button class="frian_filter_btn frian_active" data-frian-cat="semua">Semua</button>
+      <button class="frian_filter_btn" data-frian-cat="nigiri">Nigiri</button>
+      <button class="frian_filter_btn" data-frian-cat="roll">Roll</button>
+      <button class="frian_filter_btn" data-frian-cat="bento">Bento</button>
+      <button class="frian_filter_btn" data-frian-cat="minuman">Minuman &amp; Dessert</button>
+    </div>
+
+    <div class="frian_menu_wrap">
+      <div class="frian_menu_list">
+
+        <div class="frian_dish" data-frian-cat="nigiri" data-frian-name="Salmon Nigiri" data-frian-price="38000">
+          <div class="frian_dish_img frian_g1">🍣</div>
+          <div class="frian_dish_body"><span class="frian_tag">Terlaris</span><h3>Salmon Nigiri</h3><p>2 pcs salmon segar di atas nasi sushi.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 38.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="nigiri" data-frian-name="Tuna Nigiri" data-frian-price="42000">
+          <div class="frian_dish_img frian_g6">🍣</div>
+          <div class="frian_dish_body"><h3>Tuna Nigiri</h3><p>2 pcs tuna merah dengan tekstur lembut.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 42.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="nigiri" data-frian-name="Ebi Nigiri" data-frian-price="32000">
+          <div class="frian_dish_img frian_g2">🍤</div>
+          <div class="frian_dish_body"><h3>Ebi Nigiri</h3><p>2 pcs udang rebus manis dan gurih.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 32.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="roll" data-frian-name="California Roll" data-frian-price="55000">
+          <div class="frian_dish_img frian_g3">🍙</div>
+          <div class="frian_dish_body"><h3>California Roll</h3><p>8 pcs isi kepiting, alpukat, dan timun.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 55.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="roll" data-frian-name="Dragon Roll" data-frian-price="72000">
+          <div class="frian_dish_img frian_g6">🐉</div>
+          <div class="frian_dish_body"><span class="frian_tag">Chef's Pick</span><h3>Dragon Roll</h3><p>Udang tempura, topping unagi, saus teriyaki.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 72.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="roll" data-frian-name="Spicy Tuna Roll" data-frian-price="62000">
+          <div class="frian_dish_img frian_g1">🌶️</div>
+          <div class="frian_dish_body"><h3>Spicy Tuna Roll</h3><p>Tuna cincang pedas dengan mayo spesial.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 62.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="bento" data-frian-name="Ichiban Bento" data-frian-price="89000">
+          <div class="frian_dish_img frian_g2">🍱</div>
+          <div class="frian_dish_body"><span class="frian_tag">Paket Hemat</span><h3>Ichiban Bento</h3><p>Sushi, tempura, salad, dan miso soup.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 89.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="bento" data-frian-name="Chicken Katsu Bento" data-frian-price="65000">
+          <div class="frian_dish_img frian_g4">🍛</div>
+          <div class="frian_dish_body"><h3>Chicken Katsu Bento</h3><p>Ayam katsu renyah, nasi, dan sayuran.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 65.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="bento" data-frian-name="Kids Bento" data-frian-price="45000">
+          <div class="frian_dish_img frian_g5">🧒</div>
+          <div class="frian_dish_body"><h3>Kids Bento</h3><p>Porsi kecil, tanpa wasabi, ramah anak.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 45.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="minuman" data-frian-name="Ocha Dingin" data-frian-price="12000">
+          <div class="frian_dish_img frian_g3">🍵</div>
+          <div class="frian_dish_body"><h3>Ocha Dingin</h3><p>Teh hijau Jepang segar tanpa gula.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 12.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="minuman" data-frian-name="Matcha Latte" data-frian-price="28000">
+          <div class="frian_dish_img frian_g3">🥛</div>
+          <div class="frian_dish_body"><h3>Matcha Latte</h3><p>Matcha creamy, bisa panas atau dingin.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 28.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+        <div class="frian_dish" data-frian-cat="minuman" data-frian-name="Mochi Ice Cream" data-frian-price="25000">
+          <div class="frian_dish_img frian_g5">🍡</div>
+          <div class="frian_dish_body"><h3>Mochi Ice Cream</h3><p>3 pcs mochi kenyal isi es krim.</p>
+          <div class="frian_dish_foot"><span class="frian_price">Rp 25.000</span><button class="frian_add_btn">+ Tambah</button></div></div>
+        </div>
+
+      </div>
+
+      <aside class="frian_cart">
+        <h3>🛒 Pesanan Kamu</h3>
+        <div id="frian_cart_items"></div>
+        <div class="frian_cart_total"><span>Total</span><span id="frian_cart_total">Rp 0</span></div>
+        <a class="frian_btn" id="frian_order_btn" target="_blank" rel="noopener">Pilih menu dulu</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer id="frian_footer">
+  <div class="frian_container">
+    <div class="frian_footer_grid">
+      <div><h4>Ichiban Sushi</h4><p>Restoran sushi dengan bahan segar dan cita rasa autentik Jepang. Nomor satu di hati pecinta sushi.</p></div>
+      <div><h4>Halaman</h4><ul>
+        <li><a href="index.html">Beranda</a></li><li><a href="tentang.html">Tentang</a></li><li><a href="menu.html">Menu</a></li><li><a href="galeri.html">Galeri</a></li></ul></div>
+      <div><h4>Lainnya</h4><ul>
+        <li><a href="promo.html">Promo</a></li><li><a href="lokasi.html">Lokasi</a></li><li><a href="kontak.html">Kontak</a></li></ul></div>
+    </div>
+    <p class="frian_copy">&copy; 2026 Ichiban Sushi. Website dibuat oleh Muhamad Frian Erliana untuk UTS Pemrograman Web / Internet.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
